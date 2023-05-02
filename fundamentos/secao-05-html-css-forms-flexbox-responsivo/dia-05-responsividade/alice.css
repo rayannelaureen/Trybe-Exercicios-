@@ -1,0 +1,117 @@
+@media only screen and (max-width: 600px){
+    html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      body{
+        font-size: 30px;
+        margin: 30px;
+        text-align: center;
+      }
+      header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+      header ul{
+        list-style: none;
+        
+      }
+    .assideClass{
+        display: flex;
+        justify-content: space-around;
+    }
+    hr{
+        background-color: black;
+        height: 1030px;
+        width: 1px;
+    }
+    article{
+        padding: 30px;
+    }
+    footer{
+        background-color: darksalmon;
+    }
+    .aside-one ul{
+        list-style: none;
+    }
+}
+
+
+@media only screen and (min-width: 900px){
+    html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      body{
+        font-size: 30px;
+        margin: 30px;
+        text-align: center;
+      }
+      header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+      header ul{
+        list-style: none;
+        
+      }
+    .assideClass{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    article{
+        padding: 30px;
+    }
+    footer{
+        background-color: darksalmon;
+    }
+    .aside-one ul{
+        list-style: none;
+    }
+}
+@media only screen and (min-width: 1200px){
+    html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      body{
+        font-size: 30px;
+        margin: 50px;
+        text-align: center;
+      }
+      header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+      header ul{
+        list-style: none;
+        
+      }
+    .assideClass{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    article{
+        padding: 30px;
+    }
+    footer{
+        background-color: darksalmon;
+    }
+    .aside-one ul{
+        list-style: none;
+    }
+}
